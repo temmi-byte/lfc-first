@@ -1,0 +1,1898 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LFC First Church Ilorin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;0,900;1,400&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════
+       MOBILE SIDEBAR
+  ═══════════════════════════════ -->
+  <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <span class="sidebar-logo">
+        <i class="fas fa-cross"></i> LFC First Church Ilorin
+      </span>
+      <button class="sidebar-close" id="sidebarClose" aria-label="Close menu">
+        <i class="fas fa-xmark"></i>
+      </button>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a href="#hero"><i class="fas fa-house"></i> Home</a>
+      <a href="#about"><i class="fas fa-church"></i> About</a>
+      <a href="#prayer"><i class="fas fa-hands-praying"></i> Prayer</a>
+      <a href="#services"><i class="fas fa-calendar-days"></i> Services</a>
+      <a href="#location"><i class="fas fa-map-marker-alt"></i> Location</a>
+      <a href="give"><i class="fas fa-seedling"></i> Give</a>
+      <a href="#bishop"><i class="fas fa-user-tie"></i> Bishop</a>
+    </nav>
+
+    <div class="sidebar-actions">
+      <a href="#" class="sidebar-btn-primary">
+        <i class="fas fa-church"></i> Worship With Us
+      </a>
+      <a href="#" class="sidebar-btn-secondary">
+        <i class="fas fa-moon"></i> Midnight Prayers
+      </a>
+    </div>
+
+    <div class="sidebar-socials">
+      <a href="https://web.facebook.com/profile.php?id=61554993436462" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/lfcfirstchurchilorin/followers/?hl=en" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+    </div>
+  </aside>
+
+  <!-- ═══════════════════════════════
+       DESKTOP NAVBAR
+  ═══════════════════════════════ -->
+  <header class="navbar" id="navbar">
+    <div class="navbar-inner">
+
+      <a href="#" class="navbar-logo">
+        <i class="fas fa-cross"></i>
+        <span>LFC First Church</span>
+      </a>
+
+      <nav class="navbar-links">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#prayer">Prayer</a>
+        <a href="#services">Services</a>
+        <a href="#location">Location</a>
+        <a href="#give">Give</a>
+        <a href="#bishop">Bishop</a>
+      </nav>
+
+      <div class="navbar-right">
+        <a href="#" class="navbar-join-btn">
+          <i class="fas fa-hands-praying"></i> Join Us
+        </a>
+        <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+
+  <!-- ═══════════════════════════════
+       HERO SECTION
+  ═══════════════════════════════ -->
+  <section class="hero" id="hero">
+
+    <!-- Background image — edit the URL in style.css (.hero-bg) -->
+    <div class="hero-bg"></div>
+
+    <!-- Overlays -->
+    <div class="hero-overlay"></div>
+    <div class="hero-vignette"></div>
+
+    <!-- Texture -->
+    <div class="hero-dots"></div>
+
+    <!-- Animated gold accents -->
+    <div class="hero-accent-left"></div>
+    <div class="hero-accent-right"></div>
+    <!-- ── Content ── -->
+    <div class="hero-content">
+
+      <div class="hero-eyebrow" data-anim data-delay="0">
+        <span class="eyebrow-line"></span>
+        <i class="fas fa-dove"></i>
+        <span>Welcome to the House of the Lord</span>
+        <span class="eyebrow-line"></span>
+      </div>
+
+      <h1 class="hero-title" data-anim data-delay="200">
+        <span class="title-top">LFC First</span>
+        <span class="title-main">Church</span>
+      </h1>
+
+      <p class="hero-sub" data-anim data-delay="360">
+        Where lives are <em>transformed</em> by the power of God's Word,<br class="br-desk" />
+        and every believer walks in their <em>divine destiny</em>.
+      </p>
+
+      <div class="hero-divider" data-anim data-delay="480">
+        <span></span><i class="fas fa-cross"></i><span></span>
+      </div>
+
+      <!-- ── 2 CTAs ── -->
+      <div class="hero-ctas" data-anim data-delay="600">
+
+        <a href="#" class="cta-worship">
+          <span class="cta-ic"><i class="fas fa-church"></i></span>
+          <span class="cta-body">
+            <strong>Worship With Us</strong>
+            <small>Sundays • Wednesdays</small>
+          </span>
+          <i class="fas fa-arrow-right cta-arrow"></i>
+        </a>
+
+        <a href="#" class="cta-midnight">
+          <span class="cta-ic"><i class="fas fa-moon"></i></span>
+          <span class="cta-body">
+            <strong>Join Midnight Prayers</strong>
+            <small>12:00AM – 05:00AM Live every night</small>
+          </span>
+          <i class="fas fa-arrow-right cta-arrow"></i>
+        </a>
+
+      </div>
+
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="hero-scroll">
+      <span></span>
+    </div>
+
+  </section>
+
+<!-- ═══════════════════════════════════
+     ABOUT SECTION
+═══════════════════════════════════ -->
+<section class="about" id="about">
+  <div class="about-container">
+
+    <!-- ── Section label ── -->
+    <div class="section-label" data-anim>
+      <span class="label-line"></span>
+      <i class="fas fa-church"></i>
+      <span>About Us</span>
+      <span class="label-line"></span>
+    </div>
+
+    <!-- ── Heading ── -->
+    <h2 class="section-title" data-anim data-delay="120">
+      Who We Are
+    </h2>
+    <p class="section-intro" data-anim data-delay="220">
+      LFC First Church is the first church ever of the 
+      <strong>Living Faith Church Worldwide</strong> — also known as
+      <strong>Winners' Chapel</strong> — a Spirit-filled, Word-based ministry born out of a divine mandate
+      to liberate the world from every oppression of the devil through the preaching of the Word of Faith.
+    </p>
+
+    <!-- ── Story + Visual grid ── -->
+    <div class="about-grid" data-anim data-delay="300">
+
+      <!-- Left: Story card -->
+      <div class="story-card">
+        <div class="story-card-top">
+          <i class="fas fa-book-open"></i>
+          <span>Our Story</span>
+        </div>
+        <p>
+          On <strong>May 2, 1981</strong>, Bishop David Oyedepo received a life-changing 18-hour vision from God
+          in Ilesa, Osun State, Nigeria. In that encounter, God commissioned him with the words:
+        </p>
+        <blockquote>
+          "Now the hour has come to liberate the world from all oppressions of the devil, through the
+          preaching of the Word of Faith; and I am sending you to undertake this task."
+        </blockquote>
+        <p>
+          What began as a small fellowship of four members in Kaduna in 1983 has grown into one of the
+          largest Christian congregations on earth — with over <strong>6 million members</strong> across
+          <strong>147 nations</strong>, anchored by the 50,000-seat Faith Tabernacle at Canaanland, Ota, Nigeria.
+        </p>
+        <p>
+          LFC First Church stands as a local expression of this global mandate — a community where the
+          Word of Faith is preached, lives are restored, and destinies are fulfilled.
+        </p>
+        <div class="story-stats">
+          <div class="sstat">
+            <strong>1981</strong>
+            <span>Founded</span>
+          </div>
+          <div class="sstat">
+            <strong>147+</strong>
+            <span>Nations</span>
+          </div>
+          <div class="sstat">
+            <strong>6M+</strong>
+            <span>Members</span>
+          </div>
+          <div class="sstat">
+            <strong>50K</strong>
+            <span>Seat Capacity</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Vision + Mission stacked -->
+      <div class="vm-stack">
+
+        <div class="vm-card vision-card">
+          <div class="vm-icon">
+            <i class="fas fa-eye"></i>
+          </div>
+          <div class="vm-body">
+            <h3>Our Vision</h3>
+            <p>
+              To liberate the world from all oppressions of the devil through the uncompromising
+              preaching of the Word of Faith, raising a generation of champions who walk in
+              total dominion over sin, sickness, poverty, and every work of darkness.
+            </p>
+            <span class="vm-ref">
+              <i class="fas fa-bible"></i> Habakkuk 2:14
+            </span>
+          </div>
+        </div>
+
+        <div class="vm-card mission-card">
+          <div class="vm-icon">
+            <i class="fas fa-bullseye"></i>
+          </div>
+          <div class="vm-body">
+            <h3>Our Mission</h3>
+            <p>
+              To preach the Gospel of Jesus Christ with signs and wonders following; to equip
+              every believer with the Word of Faith; to restore broken destinies; and to advance
+              the Kingdom of God to the ends of the earth.
+            </p>
+            <span class="vm-ref">
+              <i class="fas fa-bible"></i> Mark 16:15–18
+            </span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+<!-- ═══════════════════════════════════
+     MEET OUR PASTOR SECTION
+═══════════════════════════════════ -->
+<section class="pastor" id="pastor">
+
+  <div class="pastor-bg-dots"></div>
+  <div class="pastor-glow"></div>
+
+  <div class="pastor-container">
+
+    <!-- ── Section Label ── -->
+    <div class="section-label" data-anim data-delay="0">
+      <span class="label-line"></span>
+      <i class="fas fa-user-tie"></i>
+      <span>Our Leadership</span>
+      <span class="label-line"></span>
+    </div>
+
+    <h2 class="section-title" data-anim data-delay="120">
+      Meet Our <span class="title-gold">Lead Pastor</span>
+    </h2>
+    <p class="section-intro" data-anim data-delay="220">
+      Under the covering of Bishop David Oyedepo and the Living Faith Church commission,
+      our pastor leads with faith, fire, and an unquenchable love for souls.
+    </p>
+
+    <!-- ── Pastor Card ── -->
+    <div class="pastor-card" data-anim data-delay="320">
+
+      <!-- Left: Photo Panel -->
+      <div class="pastor-photo-panel">
+        <div class="photo-wrap">
+          <img
+            src="pst.jpg"
+            alt="Pastor Eniola Ayodeji — Lead Pastor, LFC First Church Ilorin"
+            class="pastor-photo"
+            onerror="this.style.display='none'; document.getElementById('photoFallback').style.display='flex';"
+          />
+          <!-- Fallback avatar -->
+          <div class="photo-fallback" id="photoFallback">
+            <i class="fas fa-user-tie"></i>
+          </div>
+
+          <!-- Decorative gold frame ring -->
+          <div class="photo-ring"></div>
+
+          <!-- Live preaching badge -->
+          <div class="preaching-badge">
+            <i class="fas fa-microphone-lines"></i>
+            <span>Preaching the Word</span>
+          </div>
+        </div>
+
+        <!-- Social links -->
+        <div class="pastor-socials">
+          
+          <a href="https://www.instagram.com/eniolah3/?hl=en" aria-label="Instagram" class="ps-icon">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Right: Info Panel -->
+      <div class="pastor-info">
+
+        <!-- Title badge -->
+        <div class="pastor-role-badge">
+          <i class="fas fa-crown"></i>
+          Lead Pastor · LFC First Church Ilorin
+        </div>
+
+        <!-- Name -->
+        <h3 class="pastor-name">Pastor Eniola Ayodeji</h3>
+
+        <!-- Divider with cross -->
+        <div class="name-divider">
+          <span></span>
+          <i class="fas fa-cross"></i>
+          <span></span>
+        </div>
+
+        <!-- Bio -->
+        <div class="pastor-bio">
+          <p>
+            Pastor Eniola Ayodeji serves as the Lead Pastor of Living Faith Church
+            First Church, Ilorin — the Kwara State Headquarters of Winners' Chapel.
+            He is a man set ablaze by the fire of God, whose greatest passion is
+            seeing souls won for the Kingdom of Jesus Christ.
+          </p>
+          <p>
+            Under his leadership, LFC First Church continues to fulfil the liberation
+            mandate delivered to Bishop David Oyedepo — preaching the Word of Faith
+            with power, signs, and wonders following. His ministry is marked by
+            boldness, clarity of the Word, and a deep hunger for the supernatural.
+          </p>
+          <p>
+            He leads a vibrant, Spirit-filled congregation committed to worship,
+            discipleship, prayer, and aggressive soul-winning across Ilorin and
+            the entire Kwara State region.
+          </p>
+        </div>
+
+        <!-- Passion pillars -->
+        <div class="pastor-pillars">
+          <div class="pillar-item">
+            <i class="fas fa-fire"></i>
+            <span>Soul Winning</span>
+          </div>
+          <div class="pillar-item">
+            <i class="fas fa-book-open"></i>
+            <span>Word of Faith</span>
+          </div>
+          <div class="pillar-item">
+            <i class="fas fa-hands-praying"></i>
+            <span>Prayer & Intercession</span>
+          </div>
+          <div class="pillar-item">
+            <i class="fas fa-star"></i>
+            <span>Signs & Wonders</span>
+          </div>
+        </div>
+
+        <!-- Scripture -->
+        <div class="pastor-scripture">
+          <i class="fas fa-bible scripture-icon"></i>
+          <p>
+            "Go ye into all the world, and preach the gospel to every creature."
+          </p>
+          <span>— Mark 16:15 (KJV)</span>
+        </div>
+
+        <!-- CTA -->
+        <a href="#services" class="pastor-cta">
+          <i class="fas fa-church"></i>
+          Join Us This Sunday
+          <i class="fas fa-arrow-right cta-arrow"></i>
+        </a>
+
+      </div>
+      <!-- END pastor-info -->
+
+    </div>
+    <!-- END pastor-card -->
+
+  </div>
+</section>
+
+    <!-- ── Core Values / 12 Pillars ── -->
+    <div class="pillars-section" data-anim data-delay="100">
+      <div class="pillars-header">
+        <h3>Our 12 Pillars of Faith</h3>
+        <p>
+          By the leading of the Holy Spirit, Bishop Oyedepo classified the Word of Faith mandate into
+          12 areas of emphasis — the bedrock upon which this commission stands and produces breakthroughs.
+        </p>
+      </div>
+
+      <div class="pillars-grid">
+
+        <div class="pillar-card" data-anim data-delay="0">
+          <div class="pillar-num">01</div>
+          <i class="fas fa-shield-halved"></i>
+          <h4>Faith</h4>
+          <p>The key to every blessing in God's Kingdom. Faith in the Word of God is our victory.</p>
+          <span class="pillar-ref">1 John 5:4</span>
+        </div>
+
+        <div class="pillar-card" data-anim data-delay="60">
+          <div class="pillar-num">02</div>
+          <i class="fas fa-book"></i>
+          <h4>The Word</h4>
+          <p>God's Word is the master-key to a life of impact, exploits, and dominion.</p>
+          <span class="pillar-ref">Hebrews 1:3</span>
+        </div>
+
+        <div class="pillar-card" data-anim data-delay="120">
+          <div class="pillar-num">03</div>
+          <i class="fas fa-seedling"></i>
+          <h4>Prosperity</h4>
+          <p>Covenant prosperity — empowering believers to live free from poverty and lack.</p>
+          <span class="pillar-ref">3 John 2</span>
+        </div>
+
+        <div class="pillar-card" data-anim data-delay="180">
+          <div class="pillar-num">04</div>
+          <i class="fas fa-fire"></i>
+          <h4>The Holy Spirit</h4>
+          <p>The empowering presence of the Holy Ghost activates our mandate and gifts.</p>
+          <span class="pillar-ref">Isaiah 10:27</span>
+        </div>
+
+        <div class="pillar-card" data-anim data-delay="240">
+          <div class="pillar-num">05</div>
+          <i class="fas fa-music"></i>
+          <h4>Praise</h4>
+          <p>Praise as a weapon — releasing ambushments against the enemy on our behalf.</p>
+          <span class="pillar-ref">2 Chro. 20:22</span>
+        </div>
+
+        <div class="pillar-card" data-anim data-delay="300">
+          <div class="pillar-num">06</div>
+          <i class="fas fa-cross"></i>
+          <h4>Consecration</h4>
+          <p>A life set apart for God is the foundation of fruitfulness and divine favour.</p>
+          <span class="pillar-ref">2 Tim. 2:19</span>
+        </div>
+
+        <div class="pillar-card" data-anim data-delay="360">
+          <div class="pillar-num">07</div>
+          <i class="fas fa-star"></i>
+          <h4>The Supernatural</h4>
+          <p>Signs, wonders, and miracles are normal Kingdom experiences for every believer.</p>
+          <span class="pillar-ref">John 3:8</span>
+        </div>
+
+        <div class="pillar-card" data-anim data-delay="420">
+          <div class="pillar-num">08</div>
+          <i class="fas fa-lightbulb"></i>
+          <h4>Wisdom</h4>
+          <p>Divine wisdom is the gateway to stability, honour, and a glorious destiny.</p>
+          <span class="pillar-ref">Prov. 4:7</span>
+        </div>
+
+        <div class="pillar-card" data-anim data-delay="480">
+          <div class="pillar-num">09</div>
+          <i class="fas fa-hands-praying"></i>
+          <h4>Prayer</h4>
+          <p>The altar of prayer is our platform for divine intervention and transformation.</p>
+          <span class="pillar-ref">1 John 5:14</span>
+        </div>
+
+        <div class="pillar-card" data-anim data-delay="540">
+          <div class="pillar-num">10</div>
+          <i class="fas fa-trophy"></i>
+          <h4>Success</h4>
+          <p>God's desire is for every believer to excel and flourish in every area of life.</p>
+          <span class="pillar-ref">Isaiah 53:4</span>
+        </div>
+
+        <div class="pillar-card" data-anim data-delay="600">
+          <div class="pillar-num">11</div>
+          <i class="fas fa-compass"></i>
+          <h4>Vision</h4>
+          <p>Without vision, people perish. Purpose and direction unlock your God-given destiny.</p>
+          <span class="pillar-ref">Prov. 29:18</span>
+        </div>
+
+        <div class="pillar-card" data-anim data-delay="660">
+          <div class="pillar-num">12</div>
+          <i class="fas fa-heart-pulse"></i>
+          <h4>Healing</h4>
+          <p>Jesus bore our infirmities — total healing of spirit, soul, and body is our covenant right.</p>
+          <span class="pillar-ref">Matt. 8:17</span>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ── Bottom Scripture Banner ── -->
+    <div class="scripture-banner" data-anim>
+      <i class="fas fa-quote-left quote-icon"></i>
+      <p>
+        "For the earth shall be filled with the knowledge of the glory of the LORD,
+        as the waters cover the sea."
+      </p>
+      <span>— Habakkuk 2:14 (KJV)</span>
+    </div>
+
+  </div>
+</section>
+
+<section class="prayer" id="prayer">
+ 
+  <!-- Animated star particles -->
+  <div class="stars" aria-hidden="true">
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+  </div>
+ 
+  <div class="prayer-container">
+ 
+    <!-- ── Section label ── -->
+    <div class="section-label" data-anim data-delay="0">
+      <span class="label-line"></span>
+      <i class="fas fa-moon"></i>
+      <span>Midnight Prayer</span>
+      <span class="label-line"></span>
+    </div>
+ 
+    <!-- ── Heading ── -->
+    <h2 class="section-title" data-anim data-delay="120">
+      Join Our Midnight<br />
+      <span class="title-gold">Prayer Chain</span>
+    </h2>
+ 
+    <p class="section-intro" data-anim data-delay="220">
+      The altar of prayer never closes. Every midnight, we gather on
+      WhatsApp to intercede for souls.
+      Pick your hour and join the watch.
+    </p>
+ 
+    <!-- ── Scripture strip ── -->
+    <div class="scripture-strip" data-anim data-delay="300">
+      <i class="fas fa-bible"></i>
+      <span>
+        "Watch and pray, that ye enter not into temptation." — 
+        <strong>Matthew 26:41</strong>
+      </span>
+    </div>
+ 
+    <!-- ── Prayer Cards Grid ── -->
+    <div class="prayer-grid">
+ 
+      <!-- Card 1 — 1:00–2:00 AM -->
+      <div class="prayer-card" data-anim data-delay="0">
+        <div class="card-top">
+          <div class="card-time-badge">
+            <i class="fas fa-moon"></i>
+            <span>1:00 – 2:00 AM</span>
+          </div>
+          <div class="card-live-dot" aria-label="Active"></div>
+        </div>
+ 
+ 
+        <a
+          href="https://chat.whatsapp.com/DdIfJOKJT1p8CQi8oNtv5c"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="join-btn"
+        >
+          <i class="fab fa-whatsapp"></i>
+          Join WhatsApp Group
+          <i class="fas fa-arrow-right btn-arrow"></i>
+        </a>
+      </div>
+ 
+      <!-- Card 2 — 2:00–3:00 AM -->
+      <div class="prayer-card" data-anim data-delay="120">
+        <div class="card-top">
+          <div class="card-time-badge">
+            <i class="fas fa-moon"></i>
+            <span>2:00 – 3:00 AM</span>
+          </div>
+          <div class="card-live-dot" aria-label="Active"></div>
+        </div>
+ 
+        <a
+          href="https://chat.whatsapp.com/IAzUvVkOvaaI02hf8oCXsG"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="join-btn"
+        >
+          <i class="fab fa-whatsapp"></i>
+          Join WhatsApp Group
+          <i class="fas fa-arrow-right btn-arrow"></i>
+        </a>
+      </div>
+ 
+      <!-- Card 3 — 3:00–4:00 AM -->
+      <div class="prayer-card featured-card" data-anim data-delay="240">
+        <div class="featured-tag">
+        </div>
+ 
+        <div class="card-top">
+          <div class="card-time-badge">
+            <i class="fas fa-moon"></i>
+            <span>3:00 – 4:00 AM</span>
+          </div>
+          <div class="card-live-dot" aria-label="Active"></div>
+        </div>
+ 
+        <a
+          href="https://chat.whatsapp.com/Jhy78wplpVnEyNMVpqaAfw"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="join-btn join-btn-featured"
+        >
+          <i class="fab fa-whatsapp"></i>
+          Join WhatsApp Group
+          <i class="fas fa-arrow-right btn-arrow"></i>
+        </a>
+      </div>
+ 
+      <!-- Card 4 — 4:00–5:00 AM -->
+      <div class="prayer-card" data-anim data-delay="360">
+        <div class="card-top">
+          <div class="card-time-badge">
+            <i class="fas fa-sun"></i>
+            <span>4:00 – 5:00 AM</span>
+          </div>
+          <div class="card-live-dot" aria-label="Active"></div>
+        </div>
+ 
+        <a
+          href="https://chat.whatsapp.com/H9QUpnyoS677Ykymyvjtrc"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="join-btn"
+        >
+          <i class="fab fa-whatsapp"></i>
+          Join WhatsApp Group
+          <i class="fas fa-arrow-right btn-arrow"></i>
+        </a>
+      </div>
+ 
+    </div>
+    <!-- END prayer-grid -->
+ 
+ 
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════
+     SERVICE TIMES SECTION
+═══════════════════════════════════ -->
+<section class="services" id="services">
+  <div class="services-container">
+
+    <!-- ── Section Label ── -->
+    <div class="section-label" data-anim data-delay="0">
+      <span class="label-line"></span>
+      <i class="fas fa-calendar-days"></i>
+      <span>Gather With Us</span>
+      <span class="label-line"></span>
+    </div>
+
+    <!-- ── Heading ── -->
+    <h2 class="section-title" data-anim data-delay="120">
+      Service <span class="title-gold">Times</span>
+    </h2>
+    <p class="section-intro" data-anim data-delay="220">
+      Every gathering is a divine appointment. Come as you are — in person or online —
+      and experience the transforming power of God's Word at LFC First Church.
+    </p>
+
+    <!-- ── Today's Highlight Banner ── -->
+    <div class="today-banner" id="todayBanner" data-anim data-delay="300">
+      <div class="today-icon">
+        <i class="fas fa-bell"></i>
+      </div>
+      <div class="today-text">
+        <strong id="todayLabel">Next Service</strong>
+        <span id="todayDesc">Loading...</span>
+      </div>
+      <div class="today-badge" id="todayBadge">Today</div>
+    </div>
+
+    <!-- ══════════════════════════════
+         SERVICE TABLE
+    ══════════════════════════════ -->
+    <div class="table-wrapper" data-anim data-delay="380">
+      <table class="service-table">
+        <thead>
+          <tr>
+            <th><i class="fas fa-calendar-week"></i> Day</th>
+            <th><i class="fas fa-church"></i> Service</th>
+            <th><i class="fas fa-clock"></i> Time</th>
+            <th><i class="fas fa-tag"></i> Type</th>
+            <th><i class="fas fa-users"></i> For</th>
+          </tr>
+        </thead>
+        <tbody>
+
+          <!-- MONDAY -->
+          <tr class="day-row" data-day="1">
+            <td class="day-cell">
+              <span class="day-name">Monday</span>
+              <span class="day-abbr">MON</span>
+            </td>
+            <td class="service-name">
+              <i class="fas fa-hands-praying service-icon"></i>
+              Covenant Hour of Prayer (CHOP)
+            </td>
+            <td class="time-cell">
+              <span class="time-badge">6:00 AM – 7:00 AM</span>
+            </td>
+            <td><span class="type-pill type-prayer">Prayer</span></td>
+            <td class="for-cell">All Members</td>
+          </tr>
+
+          <!-- TUESDAY -->
+          <tr class="day-row" data-day="2">
+            <td class="day-cell">
+              <span class="day-name">Tuesday</span>
+              <span class="day-abbr">TUE</span>
+            </td>
+            <td class="service-name">
+              <i class="fas fa-hands-praying service-icon"></i>
+              Covenant Hour of Prayer (CHOP)
+            </td>
+            <td class="time-cell">
+              <span class="time-badge">6:00 AM – 7:00 AM</span>
+            </td>
+            <td><span class="type-pill type-prayer">Prayer</span></td>
+            <td class="for-cell">All Members</td>
+          </tr>
+
+          <!-- WEDNESDAY -->
+          <tr class="day-row featured-row" data-day="3">
+            <td class="day-cell">
+              <span class="day-name">Wednesday</span>
+              <span class="day-abbr">WED</span>
+            </td>
+            <td class="service-name">
+              <i class="fas fa-hands-praying service-icon"></i>
+              Covenant Hour of Prayer (CHOP)
+            </td>
+            <td class="time-cell">
+              <span class="time-badge">6:00 AM – 7:00 AM</span>
+            </td>
+            <td><span class="type-pill type-prayer">Prayer</span></td>
+            <td class="for-cell">All Members</td>
+          </tr>
+
+          <tr class="day-row featured-row" data-day="3">
+            <td class="day-cell">
+              <span class="day-name">Wednesday</span>
+              <span class="day-abbr">WED</span>
+            </td>
+            <td class="service-name">
+              <i class="fas fa-bible service-icon"></i>
+              Midweek Communion Service
+              <span class="service-note">Word Encounter + Holy Communion</span>
+            </td>
+            <td class="time-cell">
+              <span class="time-badge">5:00 PM – 7:00 PM</span>
+            </td>
+            <td><span class="type-pill type-communion">Communion</span></td>
+            <td class="for-cell">All Members</td>
+          </tr>
+
+          <!-- THURSDAY -->
+          <tr class="day-row" data-day="4">
+            <td class="day-cell">
+              <span class="day-name">Thursday</span>
+              <span class="day-abbr">THU</span>
+            </td>
+            <td class="service-name">
+              <i class="fas fa-hands-praying service-icon"></i>
+              Covenant Hour of Prayer (CHOP)
+            </td>
+            <td class="time-cell">
+              <span class="time-badge">6:00 AM – 7:00 AM</span>
+            </td>
+            <td><span class="type-pill type-prayer">Prayer</span></td>
+            <td class="for-cell">All Members</td>
+          </tr>
+
+          <!-- FRIDAY -->
+          <tr class="day-row" data-day="5">
+            <td class="day-cell">
+              <span class="day-name">Friday</span>
+              <span class="day-abbr">FRI</span>
+            </td>
+            <td class="service-name">
+              <i class="fas fa-hands-praying service-icon"></i>
+              Covenant Hour of Prayer (CHOP)
+            </td>
+            <td class="time-cell">
+              <span class="time-badge">6:00 AM – 7:00 AM</span>
+            </td>
+            <td><span class="type-pill type-prayer">Prayer</span></td>
+            <td class="for-cell">All Members</td>
+          </tr>
+
+          <tr class="day-row" data-day="5">
+            <td class="day-cell">
+              <span class="day-name">Friday</span>
+              <span class="day-abbr">FRI</span>
+            </td>
+            <td class="service-name">
+              <i class="fas fa-fire service-icon"></i>
+              Digging Deep
+              <span class="service-note">In-depth Word teaching & Bible study</span>
+            </td>
+            <td class="time-cell">
+              <span class="time-badge">5:30 PM – 7:30 PM</span>
+            </td>
+            <td><span class="type-pill type-word">Word</span></td>
+            <td class="for-cell">All Members</td>
+          </tr>
+
+          <!-- SATURDAY -->
+          <tr class="day-row" data-day="6">
+            <td class="day-cell">
+              <span class="day-name">Saturday</span>
+              <span class="day-abbr">SAT</span>
+            </td>
+            <td class="service-name">
+              <i class="fas fa-hands-praying service-icon"></i>
+              Covenant Hour of Prayer (CHOP)
+            </td>
+            <td class="time-cell">
+              <span class="time-badge">6:00 AM – 7:00 AM</span>
+            </td>
+            <td><span class="type-pill type-prayer">Prayer</span></td>
+            <td class="for-cell">All Members</td>
+          </tr>
+
+          <tr class="day-row" data-day="6">
+            <td class="day-cell">
+              <span class="day-name">Saturday</span>
+              <span class="day-abbr">SAT</span>
+            </td>
+            <td class="service-name">
+              <i class="fas fa-people-group service-icon"></i>
+              Winners Satellite Fellowship (WSF)
+              <span class="service-note">Cell group meetings at various fellowship homes</span>
+            </td>
+            <td class="time-cell">
+              <span class="time-badge">4:00 PM – 6:00 PM</span>
+            </td>
+            <td><span class="type-pill type-fellowship">Fellowship</span></td>
+            <td class="for-cell">All Members</td>
+          </tr>
+
+          <!-- SUNDAY -->
+          <tr class="day-row sunday-row" data-day="0">
+            <td class="day-cell">
+              <span class="day-name">Sunday</span>
+              <span class="day-abbr">SUN</span>
+              <span class="main-badge">Main</span>
+            </td>
+            <td class="service-name">
+              <i class="fas fa-sun service-icon gold-icon"></i>
+              First Sunday Service
+              <span class="service-note">Worship · Word · Altar call</span>
+            </td>
+            <td class="time-cell">
+              <span class="time-badge time-badge-gold">7:00 AM – 9:00 AM</span>
+            </td>
+            <td><span class="type-pill type-worship">Worship</span></td>
+            <td class="for-cell">Everyone</td>
+          </tr>
+
+          <tr class="day-row sunday-row" data-day="0">
+            <td class="day-cell">
+              <span class="day-name">Sunday</span>
+              <span class="day-abbr">SUN</span>
+            </td>
+            <td class="service-name">
+              <i class="fas fa-church service-icon gold-icon"></i>
+              Second Sunday Service
+              <span class="service-note">Worship · Word · Ministration</span>
+            </td>
+            <td class="time-cell">
+              <span class="time-badge time-badge-gold">9:30 AM – 11:30 AM</span>
+            </td>
+            <td><span class="type-pill type-worship">Worship</span></td>
+            <td class="for-cell">Everyone</td>
+          </tr>
+
+          <tr class="day-row sunday-row" data-day="0">
+            <td class="day-cell">
+              <span class="day-name">Sunday</span>
+              <span class="day-abbr">SUN</span>
+            </td>
+            <td class="service-name">
+              <i class="fas fa-child-reaching service-icon"></i>
+              Children's Church (KCCCC)
+              <span class="service-note">Kingdom Champions Children's Church — ages 3–12</span>
+            </td>
+            <td class="time-cell">
+              <span class="time-badge time-badge-gold">9:30 AM – 11:30 AM</span>
+            </td>
+            <td><span class="type-pill type-children">Children</span></td>
+            <td class="for-cell">Ages 3 – 12</td>
+          </tr>
+
+          <tr class="day-row sunday-row" data-day="0">
+            <td class="day-cell">
+              <span class="day-name">Sunday</span>
+              <span class="day-abbr">SUN</span>
+            </td>
+            <td class="service-name">
+              <i class="fas fa-user-group service-icon"></i>
+              Youth Alive Fellowship (YAF)
+              <span class="service-note">Service for teens and young adults</span>
+            </td>
+            <td class="time-cell">
+              <span class="time-badge time-badge-gold">9:30 AM – 11:30 AM</span>
+            </td>
+            <td><span class="type-pill type-youth">Youth</span></td>
+            <td class="for-cell">Teens & Young Adults</td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+
+    <!-- ── Special Services Note ── -->
+    <div class="specials-grid" data-anim data-delay="100">
+
+      <div class="special-card">
+        <div class="special-icon"><i class="fas fa-star"></i></div>
+        <div class="special-body">
+          <h4>Monthly Anointing Service</h4>
+          <p>Held on the last Sunday of every month. Come expecting a fresh touch from God — healing, deliverance, and divine impartation.</p>
+        </div>
+      </div>
+
+      <div class="special-card">
+        <div class="special-icon"><i class="fas fa-globe"></i></div>
+        <div class="special-body">
+          <h4>Annual Shiloh Convention</h4>
+          <p>The global annual gathering of the Winners' family — typically held in early December at Canaanland, Ota. A life-changing event.</p>
+        </div>
+      </div>
+
+      <div class="special-card">
+        <div class="special-icon"><i class="fas fa-moon"></i></div>
+        <div class="special-body">
+          <h4>Midnight Prayer (CHOP Night)</h4>
+          <p>Join our dedicated midnight warriors on WhatsApp from 1 AM – 5 AM every night. The altar never closes.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ── Bottom verse ── -->
+    <div class="verse-bar" data-anim>
+      <i class="fas fa-quote-left"></i>
+      <p>"Not forsaking the assembling of ourselves together, as the manner of some is." — <strong>Hebrews 10:25</strong></p>
+    </div>
+
+  </div>
+</section>
+
+<section class="location" id="location">
+  <div class="location-container">
+
+    <!-- Section Label -->
+    <div class="section-label" data-anim data-delay="0">
+      <span class="label-line"></span>
+      <i class="fas fa-map-marker-alt"></i>
+      <span>Find Us</span>
+      <span class="label-line"></span>
+    </div>
+
+    <!-- Heading -->
+    <h2 class="section-title" data-anim data-delay="120">
+      Visit <span class="title-gold">LFC First Church</span>
+    </h2>
+    <p class="section-intro" data-anim data-delay="220">
+      We are located at Ajase-Ipo road, Offa Garrage Area, Ilorin, Kwara State.
+      You are always welcome.
+    </p>
+
+    <!-- Grid: Info + Map -->
+    <div class="location-grid" data-anim data-delay="320">
+
+      <!-- LEFT: Info Panel -->
+      <div class="info-panel">
+
+        <div class="info-card">
+          <div class="info-icon"><i class="fas fa-location-dot"></i></div>
+          <div class="info-body">
+            <h4>Address</h4>
+            <p>Ajase-Ipo Road, <br />Offa Garrage Area, lorin<br />Kwara State, Nigeria</p>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <div class="info-icon"><i class="fas fa-phone-flip"></i></div>
+          <div class="info-body">
+            <h4>Phone</h4>
+            <p>08130011542</p>
+            <p>08141393920</p>
+            <p>08140432853</p>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <div class="info-icon"><i class="fas fa-clock"></i></div>
+          <div class="info-body">
+            <h4>Office Hours</h4>
+            <p>Monday – Friday<br />8:00 AM – 4:00 PM</p>
+          </div>
+        </div>
+
+        <div class="info-card info-card-gold">
+          <div class="info-icon info-icon-gold"><i class="fas fa-church"></i></div>
+          <div class="info-body">
+            <h4>Sunday Services</h4>
+            <p><strong>1st Service:</strong> 7:00 AM – 9:00 AM<br />
+               <strong>2nd Service:</strong> 9:30 AM – 11:30 AM</p>
+          </div>
+        </div>
+
+        <a
+          href="https://www.google.com/maps/search/?api=1&query=LIVING+FAITH+CHURCH+FIRST+CHURCH+ILORIN&query_place_id=ChIJe--SUgCzNxAR7j7lTxZAKjQ"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="directions-btn"
+        >
+          <i class="fas fa-diamond-turn-right"></i>
+          Get Directions on Google Maps
+          <i class="fas fa-arrow-up-right-from-square btn-ext"></i>
+        </a>
+
+        <div class="social-row">
+          <span>Follow us:</span>
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+
+      </div>
+      <!-- END info-panel -->
+
+      <!-- RIGHT: Map -->
+      <div class="map-panel">
+        <div class="map-frame" id="mapFrame">
+          <!--
+            Using a static embed approach with the place_id from your link.
+            If this doesn't render, the JS fallback will activate automatically.
+          -->
+          <iframe
+            src="https://maps.google.com/maps?q=Living+Faith+Church+First+Church+Ilorin+Kwara+State+Nigeria&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            width="100%"
+            height="100%"
+            frameborder="0"
+            scrolling="no"
+            marginheight="0"
+            marginwidth="0"
+            allowfullscreen
+            loading="lazy"
+            title="LFC First Church Ilorin"
+          ></iframe>
+        </div>
+
+        <div class="map-caption">
+          <i class="fas fa-circle-info"></i>
+          <span>
+            Living Faith Church First Church — Kwara State HQ, Ilorin, Nigeria. &nbsp;
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=LIVING+FAITH+CHURCH+FIRST+CHURCH+ILORIN&query_place_id=ChIJe--SUgCzNxAR7j7lTxZAKjQ"
+              target="_blank"
+              rel="noopener noreferrer"
+            >Open full map <i class="fas fa-arrow-up-right-from-square"></i></a>
+          </span>
+        </div>
+      </div>
+
+    </div>
+    <!-- END location-grid -->
+
+    <!-- First Timer Banner -->
+    <div class="visit-banner" data-anim data-delay="100">
+      <div class="visit-banner-left">
+        <i class="fas fa-hands-holding-heart banner-icon"></i>
+        <div>
+          <h4>First Time Visiting?</h4>
+          <p>Our ushers will be happy to welcome you. No dress code — just come ready to encounter the living God.</p>
+        </div>
+      </div>
+      <a href="#" class="visit-btn">
+        <i class="fas fa-user-plus"></i>
+        I'm a First Timer
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════
+     SOW A SEED / GIVING SECTION
+═══════════════════════════════════ -->
+<section class="giving" id="giving">
+
+  <!-- Background decoration -->
+  <div class="giving-bg-glow"></div>
+  <div class="giving-dots"></div>
+
+  <div class="giving-container">
+
+    <!-- ── Section Label ── -->
+    <div class="section-label" data-anim data-delay="0">
+      <span class="label-line"></span>
+      <i class="fas fa-seedling"></i>
+      <span>Sow a Seed</span>
+      <span class="label-line"></span>
+    </div>
+
+    <!-- ── Heading ── -->
+    <h2 class="section-title" data-anim data-delay="120">
+      Give to the <span class="title-gold">Kingdom</span>
+    </h2>
+    <p class="section-intro" data-anim data-delay="220">
+      Your giving is an act of worship and a seed of faith. Every seed sown into
+      the Kingdom of God carries a divine harvest. Give generously and expect
+      God's supernatural multiplication in your life.
+    </p>
+
+    <!-- ── Scripture Strip ── -->
+    <div class="scripture-strip" data-anim data-delay="300">
+      <i class="fas fa-quote-left"></i>
+      <span>
+        "Give, and it shall be given unto you; good measure, pressed down, and shaken together,
+        and running over." — <strong>Luke 6:38 (KJV)</strong>
+      </span>
+    </div>
+
+    <!-- ── Giving Types Tabs ── -->
+    <div class="giving-tabs" data-anim data-delay="360">
+      <button class="tab-btn active" data-tab="tithe">
+        <i class="fas fa-hand-holding-heart"></i> Tithes
+      </button>
+      <button class="tab-btn" data-tab="offering">
+        <i class="fas fa-gift"></i> Offering
+      </button>
+      <button class="tab-btn" data-tab="seed">
+        <i class="fas fa-seedling"></i> Seed Faith
+      </button>
+      <button class="tab-btn" data-tab="project">
+        <i class="fas fa-building-columns"></i> Project
+      </button>
+    </div>
+
+    <!-- ── Tab Description ── -->
+    <div class="tab-desc" id="tabDesc" data-anim data-delay="400">
+      <p id="tabDescText">
+        The tithe is a holy covenant obligation — 10% of your income returned to God.
+        It is the gateway to open heavens, divine protection, and supernatural provision
+        over your finances and household. (Malachi 3:10)
+      </p>
+    </div>
+
+    <!-- ── Account Cards Grid ── -->
+    <div class="accounts-grid">
+
+      <!-- Account 1 -->
+      <div class="account-card" data-anim data-delay="0">
+        <div class="account-card-header">
+          <div class="bank-logo">
+            <i class="fas fa-university"></i>
+          </div>
+          <div class="bank-info">
+            <span class="bank-name">First Bank Nigeria</span>
+            <span class="bank-tag">Primary Account</span>
+          </div>
+          <div class="currency-badge">NGN</div>
+        </div>
+
+        <div class="account-details">
+          <div class="detail-row">
+            <span class="detail-label">Account Name</span>
+            <span class="detail-value">LFC First Church Ilorin</span>
+          </div>
+          <div class="detail-row number-row">
+            <span class="detail-label">Account Number</span>
+            <span class="detail-value account-num" id="acc1">0000000000</span>
+          </div>
+          <div class="detail-row">
+            <span class="detail-label">Sort Code</span>
+            <span class="detail-value">011 — Update this</span>
+          </div>
+        </div>
+
+        <button class="copy-btn" onclick="copyNumber('acc1', this)">
+          <i class="fas fa-copy"></i>
+          <span>Copy Account Number</span>
+        </button>
+      </div>
+
+      <!-- Account 2 -->
+      <div class="account-card featured-account" data-anim data-delay="120">
+        <div class="featured-ribbon">
+          <i class="fas fa-star"></i> Most Used
+        </div>
+
+        <div class="account-card-header">
+          <div class="bank-logo">
+            <i class="fas fa-university"></i>
+          </div>
+          <div class="bank-info">
+            <span class="bank-name">Guaranty Trust Bank</span>
+            <span class="bank-tag">GTBank</span>
+          </div>
+          <div class="currency-badge">NGN</div>
+        </div>
+
+        <div class="account-details">
+          <div class="detail-row">
+            <span class="detail-label">Account Name</span>
+            <span class="detail-value">LFC First Church Ilorin</span>
+          </div>
+          <div class="detail-row number-row">
+            <span class="detail-label">Account Number</span>
+            <span class="detail-value account-num" id="acc2">0000000000</span>
+          </div>
+          <div class="detail-row">
+            <span class="detail-label">Sort Code</span>
+            <span class="detail-value">058 — Update this</span>
+          </div>
+        </div>
+
+        <button class="copy-btn copy-btn-gold" onclick="copyNumber('acc2', this)">
+          <i class="fas fa-copy"></i>
+          <span>Copy Account Number</span>
+        </button>
+      </div>
+
+      <!-- Account 3 -->
+      <div class="account-card" data-anim data-delay="240">
+        <div class="account-card-header">
+          <div class="bank-logo">
+            <i class="fas fa-university"></i>
+          </div>
+          <div class="bank-info">
+            <span class="bank-name">Zenith Bank</span>
+            <span class="bank-tag">Savings Account</span>
+          </div>
+          <div class="currency-badge">NGN</div>
+        </div>
+
+        <div class="account-details">
+          <div class="detail-row">
+            <span class="detail-label">Account Name</span>
+            <span class="detail-value">LFC First Church Ilorin</span>
+          </div>
+          <div class="detail-row number-row">
+            <span class="detail-label">Account Number</span>
+            <span class="detail-value account-num" id="acc3">0000000000</span>
+          </div>
+          <div class="detail-row">
+            <span class="detail-label">Sort Code</span>
+            <span class="detail-value">057 — Update this</span>
+          </div>
+        </div>
+
+        <button class="copy-btn" onclick="copyNumber('acc3', this)">
+          <i class="fas fa-copy"></i>
+          <span>Copy Account Number</span>
+        </button>
+      </div>
+
+    </div>
+    <!-- END accounts-grid -->
+
+    <!-- ── Update Note ── -->
+    <p class="update-note" data-anim>
+      <i class="fas fa-circle-info"></i>
+      Replace the placeholder account numbers and sort codes above with your actual bank details before going live.
+    </p>
+
+    <!-- ── Giving Promises ── -->
+    <div class="promises-grid" data-anim data-delay="100">
+
+      <div class="promise-card">
+        <i class="fas fa-shield-halved"></i>
+        <h4>Divine Protection</h4>
+        <p>God promises to rebuke the devourer on your behalf when you honour Him with your substance.</p>
+        <span class="promise-ref">Malachi 3:11</span>
+      </div>
+
+      <div class="promise-card">
+        <i class="fas fa-infinity"></i>
+        <h4>Supernatural Harvest</h4>
+        <p>Whatever measure you give is the measure that returns to you — pressed down and overflowing.</p>
+        <span class="promise-ref">Luke 6:38</span>
+      </div>
+
+      <div class="promise-card">
+        <i class="fas fa-door-open"></i>
+        <h4>Open Heavens</h4>
+        <p>Tithing and giving unlock the windows of heaven with blessings there shall not be room enough to receive.</p>
+        <span class="promise-ref">Malachi 3:10</span>
+      </div>
+
+      <div class="promise-card">
+        <i class="fas fa-trophy"></i>
+        <h4>Exceeding Riches</h4>
+        <p>God is able to make all grace abound — so that having all sufficiency, you may abound in every good work.</p>
+        <span class="promise-ref">2 Corinthians 9:8</span>
+      </div>
+
+    </div>
+
+    <!-- ── Bottom Banner ── -->
+    <div class="giving-banner" data-anim>
+      <i class="fas fa-quote-left quote-icon"></i>
+      <p>
+        "He which soweth sparingly shall reap also sparingly; and he which soweth bountifully
+        shall reap also bountifully."
+      </p>
+      <span>— 2 Corinthians 9:6 (KJV)</span>
+    </div>
+
+  </div>
+
+  <!-- Toast notification -->
+  <div class="toast" id="toast">
+    <i class="fas fa-check-circle"></i>
+    <span id="toastMsg">Account number copied!</span>
+  </div>
+
+</section>
+
+<!-- ═══════════════════════════════════
+     BISHOP DAVID OYEDEPO SECTION
+═══════════════════════════════════ -->
+<section class="bishop" id="bishop">
+
+  <!-- Background elements -->
+  <div class="bishop-dots"></div>
+  <div class="bishop-glow-left"></div>
+  <div class="bishop-glow-right"></div>
+
+  <div class="bishop-container">
+
+    <!-- ── Section Label ── -->
+    <div class="section-label" data-anim data-delay="0">
+      <span class="label-line"></span>
+      <i class="fas fa-cross"></i>
+      <span>Our Spiritual Father</span>
+      <span class="label-line"></span>
+    </div>
+
+    <!-- ── Heading ── -->
+    <h2 class="section-title" data-anim data-delay="120">
+      Bishop David <span class="title-gold">Oyedepo</span>
+    </h2>
+    <p class="section-intro" data-anim data-delay="220">
+      Founder and Presiding Bishop of Living Faith Church Worldwide — a man whose
+      obedience to a divine mandate has transformed millions of lives across the globe.
+    </p>
+
+    <!-- ══════════════════
+         MAIN CONTENT GRID
+    ══════════════════ -->
+    <div class="bishop-grid" data-anim data-delay="300">
+
+      <!-- LEFT: Portrait Card -->
+      <div class="portrait-card">
+
+        <!-- Photo wrapper -->
+        <div class="portrait-photo-wrap">
+          <img
+            src="bishop.jpg"
+            alt="Bishop David Oyedepo"
+            class="portrait-photo"
+            onerror="this.style.display='none'; document.getElementById('portraitFallback').style.display='flex';"
+          />
+          <!-- Fallback if image fails -->
+          <div class="portrait-fallback" id="portraitFallback">
+            <i class="fas fa-user-tie"></i>
+          </div>
+          <!-- Gold frame accent -->
+          <div class="portrait-frame"></div>
+        </div>
+
+        <!-- Name & title -->
+        <div class="portrait-name">
+          <h3>Bishop David O. Oyedepo</h3>
+          <span class="portrait-title-badge">
+            <i class="fas fa-crown"></i>
+            Presiding Bishop · LFCWW
+          </span>
+        </div>
+
+        <!-- Quick stats -->
+        <div class="portrait-stats">
+          <div class="pstat">
+            <strong>1981</strong>
+            <span>Founded</span>
+          </div>
+          <div class="pstat-sep"></div>
+          <div class="pstat">
+            <strong>147+</strong>
+            <span>Nations</span>
+          </div>
+          <div class="pstat-sep"></div>
+          <div class="pstat">
+            <strong>100+</strong>
+            <span>Books</span>
+          </div>
+        </div>
+
+        <!-- Social links -->
+        <div class="portrait-socials">
+          <a href="https://www.facebook.com/DavidOyedepoMinistries" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://www.youtube.com/@DomimediaTV" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+            <i class="fab fa-youtube"></i>
+          </a>
+          <a href="https://twitter.com/davidoyedepo" target="_blank" rel="noopener noreferrer" aria-label="X / Twitter">
+            <i class="fab fa-x-twitter"></i>
+          </a>
+          <a href="https://faithtabernacle.org.ng" target="_blank" rel="noopener noreferrer" aria-label="Website">
+            <i class="fas fa-globe"></i>
+          </a>
+        </div>
+
+      </div>
+      <!-- END portrait-card -->
+
+      <!-- RIGHT: Bio Content -->
+      <div class="bishop-bio">
+
+        <!-- Mandate quote -->
+        <div class="mandate-quote">
+          <i class="fas fa-quote-left mandate-quote-icon"></i>
+          <p>
+            "Now the hour has come to liberate the world from all oppressions of the devil,
+            through the preaching of the Word of Faith; and I am sending you to undertake this task."
+          </p>
+          <span>— God's mandate to Bishop Oyedepo, May 2, 1981</span>
+        </div>
+
+        <!-- Bio paragraphs -->
+        <div class="bio-text">
+          <p>
+            Bishop David Olaniyi Oyedepo was born on <strong>September 27, 1954</strong> in Osogbo,
+            Osun State, Nigeria. He gave his life to Jesus Christ in 1969 through the influence
+            of his teacher, Ms. Betty Lasher. He studied Architecture at Kwara State Polytechnic,
+            Ilorin — the very city where LFC First Church stands today — before resigning from
+            the Federal Ministry of Housing to answer the call of God full-time.
+          </p>
+          <p>
+            On <strong>May 2, 1981</strong>, at age 26, Bishop Oyedepo received an extraordinary
+            18-hour vision from God in Ilesa, Osun State, commissioning him to liberate the world
+            from every oppression of the devil through the preaching of the Word of Faith. This
+            divine encounter birthed what is today known as <strong>Living Faith Church Worldwide
+            (Winners' Chapel)</strong>.
+          </p>
+          <p>
+            The church started with just <strong>four members</strong> in Kaduna in December 1983,
+            was officially commissioned by Pastor E.A. Adeboye of RCCG, and has since grown into
+            one of the largest Christian congregations on earth — with over <strong>6 million
+            members</strong> across <strong>147 nations</strong>, anchored by the 50,400-seat
+            Faith Tabernacle at Canaanland, Ota — built debt-free within 12 months.
+          </p>
+        </div>
+
+        <!-- Achievements grid -->
+        <div class="achievements-grid">
+
+          <div class="achievement-item">
+            <div class="ach-icon"><i class="fas fa-church"></i></div>
+            <div class="ach-body">
+              <h5>21,000+ Churches</h5>
+              <p>Planted across Nigeria alone, with thousands more across six continents worldwide.</p>
+            </div>
+          </div>
+
+          <div class="achievement-item">
+            <div class="ach-icon"><i class="fas fa-graduation-cap"></i></div>
+            <div class="ach-body">
+              <h5>Covenant & Landmark Universities</h5>
+              <p>Founder of two world-class universities in Nigeria, raising Kingdom-driven leaders.</p>
+            </div>
+          </div>
+
+          <div class="achievement-item">
+            <div class="ach-icon"><i class="fas fa-book-open"></i></div>
+            <div class="ach-body">
+              <h5>100+ Published Titles</h5>
+              <p>Prolific author whose books on faith, prosperity, and healing are read in over 100 nations.</p>
+            </div>
+          </div>
+
+          <div class="achievement-item">
+            <div class="ach-icon"><i class="fas fa-globe-africa"></i></div>
+            <div class="ach-body">
+              <h5>Shiloh Annual Convention</h5>
+              <p>Global gathering transmitting live to 177 nations — drawing delegates from 50+ countries.</p>
+            </div>
+          </div>
+
+          <div class="achievement-item">
+            <div class="ach-icon"><i class="fas fa-award"></i></div>
+            <div class="ach-body">
+              <h5>Forbes Recognition</h5>
+              <p>Listed by Forbes as one of the most influential religious leaders in Africa.</p>
+            </div>
+          </div>
+
+          <div class="achievement-item">
+            <div class="ach-icon"><i class="fas fa-road"></i></div>
+            <div class="ach-body">
+              <h5>National Honour</h5>
+              <p>A road named after him by the Federal Government of Nigeria in Abuja (2008).</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Learn more link -->
+        <a
+          href="https://faithtabernacle.org.ng/autobiography"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="learn-more-btn"
+        >
+          <i class="fas fa-arrow-up-right-from-square"></i>
+          Read Full Biography on faithtabernacle.org.ng
+        </a>
+
+      </div>
+      <!-- END bishop-bio -->
+
+    </div>
+    <!-- END bishop-grid -->
+
+    <!-- ── Timeline ── -->
+    <div class="timeline-section" data-anim data-delay="80">
+      <h3 class="timeline-title">Milestones of a Life on Assignment</h3>
+      <div class="timeline">
+
+        <div class="timeline-item" data-anim data-delay="0">
+          <div class="timeline-dot"></div>
+          <div class="timeline-year">1954</div>
+          <div class="timeline-content">
+            <h5>Born in Osogbo</h5>
+            <p>Born on September 27, 1954. Raised by his grandmother who instilled in him the virtues of Christian faith.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-anim data-delay="80">
+          <div class="timeline-dot"></div>
+          <div class="timeline-year">1969</div>
+          <div class="timeline-content">
+            <h5>Gave His Life to Christ</h5>
+            <p>Born again through the influence of his teacher Ms. Betty Lasher at age 15.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-anim data-delay="160">
+          <div class="timeline-dot"></div>
+          <div class="timeline-year">1981</div>
+          <div class="timeline-content">
+            <h5>The 18-Hour Vision</h5>
+            <p>Received God's mandate in Ilesa on May 2, 1981 — the birth of the liberation commission.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-anim data-delay="240">
+          <div class="timeline-dot"></div>
+          <div class="timeline-year">1983</div>
+          <div class="timeline-content">
+            <h5>First Church Planted</h5>
+            <p>Living Faith Church began in Kaduna with 4 members. Commissioned by Pastor E.A. Adeboye.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-anim data-delay="320">
+          <div class="timeline-dot"></div>
+          <div class="timeline-year">1999</div>
+          <div class="timeline-content">
+            <h5>Faith Tabernacle Dedicated</h5>
+            <p>50,400-seat auditorium at Canaanland, Ota — built debt-free in 12 months. World's largest church building.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-anim data-delay="400">
+          <div class="timeline-dot"></div>
+          <div class="timeline-year">2002</div>
+          <div class="timeline-content">
+            <h5>Covenant University Founded</h5>
+            <p>Established to raise a generation of purpose-driven, Kingdom-oriented leaders in Nigeria and Africa.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-anim data-delay="480">
+          <div class="timeline-dot"></div>
+          <div class="timeline-year">Today</div>
+          <div class="timeline-content">
+            <h5>Global Impact Continues</h5>
+            <p>Over 6 million members across 147 nations. The construction of the 100,000-seat "The Ark" is underway.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════
+     FOOTER
+═══════════════════════════════════ -->
+<footer class="footer" id="footer">
+
+  <!-- Background elements -->
+  <div class="footer-dots"></div>
+  <div class="footer-glow-top"></div>
+
+  <!-- ── Pre-footer CTA Band ── -->
+  <div class="prefooter">
+    <div class="prefooter-inner">
+      <div class="prefooter-text">
+        <h3>Ready to Experience God's Presence?</h3>
+        <p>Join us this Sunday — in person or online. Everyone is welcome at LFC First Church, Ilorin.</p>
+      </div>
+      <div class="prefooter-actions">
+        <a href="#prayer" class="prefooter-btn-primary">
+          <i class="fas fa-moon"></i>
+          Join Midnight Prayers
+        </a>
+        <a href="#services" class="prefooter-btn-ghost">
+          <i class="fas fa-calendar-days"></i>
+          View Service Times
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Main Footer Body ── -->
+  <div class="footer-body">
+    <div class="footer-inner">
+
+      <!-- Column 1: Brand -->
+      <div class="footer-col footer-brand">
+        <div class="brand-logo">
+          <i class="fas fa-cross"></i>
+          <span>LFC First Church</span>
+        </div>
+        <p class="brand-desc">
+          A branch of Living Faith Church Worldwide (Winners' Chapel) —
+          the Kwara State Headquarters in Ilorin, Nigeria. Raising a
+          generation of champions through the Word of Faith.
+        </p>
+        <div class="brand-mandate">
+          <i class="fas fa-quote-left"></i>
+          <span>
+            "Liberating the world through the preaching of the Word of Faith."
+          </span>
+        </div>
+        <div class="social-icons">
+          <a href="https://.facebook.com/profile.php?id=61554993436462" class="social-icon" aria-label="Facebook">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://www.instagram.com/lfcfirstchurchilorin?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="social-icon" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          </a>
+  
+        </div>
+      </div>
+
+      <!-- Column 2: Quick Links -->
+      <div class="footer-col">
+        <h4 class="footer-col-title">
+          <i class="fas fa-link"></i> Quick Links
+        </h4>
+        <ul class="footer-links">
+          <li>
+            <a href="#hero">
+              <i class="fas fa-chevron-right"></i> Home
+            </a>
+          </li>
+          <li>
+            <a href="#about">
+              <i class="fas fa-chevron-right"></i> About Us
+            </a>
+          </li>
+          <li>
+            <a href="#prayer">
+              <i class="fas fa-chevron-right"></i> Midnight Prayer
+            </a>
+          </li>
+          <li>
+            <a href="#services">
+              <i class="fas fa-chevron-right"></i> Service Times
+            </a>
+          </li>
+          <li>
+            <a href="#location">
+              <i class="fas fa-chevron-right"></i> Find Us
+            </a>
+          </li>
+          <li>
+            <a href="#giving">
+              <i class="fas fa-chevron-right"></i> Give / Sow a Seed
+            </a>
+          </li>
+          <li>
+            <a href="#bishop">
+              <i class="fas fa-chevron-right"></i> Bishop Oyedepo
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Column 3: Ministries -->
+      <div class="footer-col">
+        <h4 class="footer-col-title">
+          <i class="fas fa-church"></i> Ministries
+        </h4>
+        <ul class="footer-links">
+          <li>
+            <a href="#">
+              <i class="fas fa-chevron-right"></i> Men's Fellowship
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-chevron-right"></i> Women's Ministry
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-chevron-right"></i> Youth Alive (YAF)
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-chevron-right"></i> Children's Church (KCCCC)
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-chevron-right"></i> Word of Faith Bible Institute (WOFBI)
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-chevron-right"></i> Winners Satellite Fellowship (WSF)
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-chevron-right"></i> Praise & Worship Team
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Column 4: Contact & Service Times -->
+      <div class="footer-col">
+        <h4 class="footer-col-title">
+          <i class="fas fa-address-card"></i> Contact Us
+        </h4>
+        <ul class="footer-contact">
+          <li>
+            <i class="fas fa-location-dot"></i>
+            <span>Living Faith Church First Church,<br />Ilorin, Kwara State, Nigeria</span>
+          </li>
+          <li>
+            <i class="fas fa-phone"></i>
+            <span>+234 (0) 000 000 0000</span>
+          </li>
+          <li>
+            <i class="fas fa-envelope"></i>
+            <span>info@lfcfirstchurchilorin.org</span>
+          </li>
+          <li>
+            <i class="fas fa-clock"></i>
+            <span>Office: Mon – Fri, 8:00 AM – 4:00 PM</span>
+          </li>
+        </ul>
+
+        <div class="footer-service-times">
+          <h5>
+            <i class="fas fa-sun"></i> Sunday Services
+          </h5>
+          <div class="service-time-row">
+            <span class="st-label">1st Service</span>
+            <span class="st-time">7:00 AM</span>
+          </div>
+          <div class="service-time-row">
+            <span class="st-label">2nd Service</span>
+            <span class="st-time">9:30 AM</span>
+          </div>
+          <div class="service-time-row">
+            <span class="st-label">CHOP (Daily)</span>
+            <span class="st-time">6:00 AM</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ── Footer Divider ── -->
+  <div class="footer-divider">
+    <div class="divider-inner">
+      <span class="divider-line"></span>
+      <i class="fas fa-cross divider-cross"></i>
+      <span class="divider-line"></span>
+    </div>
+  </div>
+
+  <!-- ── Footer Bottom ── -->
+  <div class="footer-bottom">
+    <div class="footer-bottom-inner">
+
+      <p class="copyright">
+        &copy; <span id="currentYear"></span>
+        <strong>LFC First Church, Ilorin</strong> — Living Faith Church Worldwide.
+        All rights reserved.
+      </p>
+
+      <div class="footer-bottom-links">
+        <a href="#">Privacy Policy</a>
+        <span class="dot-sep"></span>
+        <a href="#">Terms of Use</a>
+        <span class="dot-sep"></span>
+        <a href="#">Sitemap</a>
+      </div>
+
+      <p class="footer-tagline">
+        <i class="fas fa-heart"></i>
+        Built for the glory of God
+      </p>
+
+    </div>
+  </div>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
