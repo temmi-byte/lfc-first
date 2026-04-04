@@ -3539,7 +3539,7 @@ body  { font-family: var(--ff-body); background: var(--winners-white); color: va
 ══════════════════════════════════════════════════════════ */
 .footer {
   position: relative;
-  background: var(--purple-deeper);
+  background: var(--purple);
   overflow: hidden;
 }
 
@@ -3998,34 +3998,6 @@ body  { font-family: var(--ff-body); background: var(--winners-white); color: va
    Winners' Chapel Colors: Deep Purple #4B0082 + Gold #D4A017
    ============================================================ */
 
-*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-
-:root {
-  --gold:           #D4A017;
-  --gold-light:     #E8BE50;
-  --gold-pale:      rgba(212, 160, 23, 0.12);
-  --gold-border:    rgba(212, 160, 23, 0.30);
-
-  --purple:         #4B0082;
-  --purple-mid:     #6B0F6B;
-  --purple-dark:    #2E0050;
-  --purple-soft:    rgba(75, 0, 130, 0.07);
-  --purple-border:  rgba(75, 0, 130, 0.18);
-
-  --cream:          #FAF7FD;
-  --white:          #FFFFFF;
-  --text:           #1A1228;
-  --text-light:     #5C5C7A;
-  --border:         #E4DCF0;
-
-  --ff-display:     'Cormorant Garamond', Georgia, serif;
-  --ff-body:        'Outfit', sans-serif;
-  --ease:           cubic-bezier(0.22, 1, 0.36, 1);
-  --radius:         12px;
-}
-
-html { scroll-behavior: smooth; font-size: 16px; }
-body { font-family: var(--ff-body); background: var(--cream); color: var(--text); overflow-x: hidden; }
 
 
 /* ══════════════════════════════════════════════════════════
