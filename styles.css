@@ -716,7 +716,7 @@ body  { font-family: var(--ff-body); background: var(--winners-white); color: va
 ══════════════════════════════════════════════════════════ */
 
 .about {
-  background: var(--purple-dark);
+  background: var(--purple-soft);
   padding: 100px 5% 110px;
   position: relative;
   overflow: hidden;
@@ -770,7 +770,7 @@ body  { font-family: var(--ff-body); background: var(--winners-white); color: va
   font-family: var(--ff-display);
   font-size: clamp(2.4rem, 5vw, 3.8rem);
   font-weight: 900;
-  color: var(--white);
+  color: var(--gold);
   text-align: center;
   line-height: 1.1;
   margin-bottom: 18px;
@@ -1010,7 +1010,7 @@ body  { font-family: var(--ff-body); background: var(--winners-white); color: va
   max-width: 620px;
   margin: 0 auto;
   font-size: 0.9rem;
-  color: var(--white);
+  color: var(--text);
   line-height: 1.8;
 }
 
@@ -1191,7 +1191,7 @@ body  { font-family: var(--ff-body); background: var(--winners-white); color: va
 
 .prayer {
   position: relative;
-  background: linear-gradient(160deg, var(--purple) 0%, #2c0a30 50%, #1c061c 100%);
+  background: linear-gradient(135deg, var(--purple), var(--purple-mid));
   padding: 110px 5% 120px;
   overflow: hidden;
 }
@@ -1286,7 +1286,7 @@ body  { font-family: var(--ff-body); background: var(--winners-white); color: va
   font-family: var(--ff-display);
   font-size: clamp(2.4rem, 5.5vw, 4rem);
   font-weight: 900;
-  color: var(--white);
+  color: rgb(209, 201, 201);
   text-align: center;
   line-height: 1.15;
   margin-bottom: 18px;
