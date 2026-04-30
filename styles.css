@@ -1352,7 +1352,7 @@ body  { font-family: var(--ff-body); background: var(--winners-white); color: va
 .prayer-card {
   border-color: rgba(201, 168, 76, 0.3);
   background: linear-gradient(160deg, rgba(201,168,76,0.08) 0%, rgba(201,168,76,0.03) 100%);
-  border: 1px solid var(--card-border);
+  border: 1px solid var(--gold);
   border-radius: var(--radius);
   padding: 28px 22px;
   display: flex;
